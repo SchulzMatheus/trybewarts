@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+#body-content {
+  background-color: rgb(239, 239, 239);
+}
+
+.header { display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(50, 167, 145);
+  padding: 10px;
+}
+
+#trybewarts-header-title {
+  color: white;
+  font-family: Papyrus, fantasy;
+  font-style: oblique;
+  font-size: 30px;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+}
+
+.main-content img {
+  margin-left: 7%;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.trybewarts-header-logo {
+  height: 45px;
+}
+
+form h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-content {
+  padding-left: 2%;
+  padding-right: 5%;
+  display: flex;
+  margin-top: 20px;
+  background-color: white;
+  margin-left: 5%;
+}
+
+.content-label {
+  margin: 5px;
+  display: flex;
+}
+
+.labelHouse {
+  display: flex;
+  margin: 5px;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid gray;
+  left: 0;
+  margin: 5px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#label-family {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+#label-family input {
+  margin: 12px 5px;
+}
+
+.left-form {
+  width: 50%;
+}
+
+.radios-1 {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.radios-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.radios-3 {
+  display: flex;
+}
+
+.right-form {
+  width: 50%;
+}
+
+.label-rate-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#label-rate {
+  margin: 20px 5px;
+}
+
+.textarea {
+  margin: 5px;
+}
+
+#textarea-input {
+  margin: 10px 5px;
+}
+
+#label-infos {
+  margin: 5px;
+}
+
+#submit-btn {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 8px;
+  border-radius: 3px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+  background-color: rgb(78, 44, 131);
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+}
+
+#btnEntrar {
+  background-color: rgb(78, 44, 131);
+}
+
+#title-evaluation {
+  font-size: 22px;
+}
+
+#label-family , #label-content {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#p {
+  margin: 0;
+}
+
+.info-container {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+
+.button {
+  background-color: rgb(78, 44, 131);
+}
