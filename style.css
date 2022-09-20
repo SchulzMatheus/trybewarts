@@ -186,3 +186,24 @@ footer {
 .button {
   background-color: rgb(78, 44, 131);
 }
+
+@media screen and (max-width: 600px) {
+  .trybewarts-login {
+    display: none;
+  }
+  .trybewarts-header-logo {
+    display: none;
+  }
+  .header {
+    justify-content: center;
+  }
+  #trybewarts-forms-logo {
+    display: none;
+  }
+  #evaluation-form {
+    display: flex;
+    margin: 3%;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
